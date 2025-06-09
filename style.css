@@ -36,9 +36,10 @@ nav {
     margin: 0;
     padding: 0;
 }
-
-.nav-links a {
+a {
     text-decoration: none;
+}
+.nav-links a {
     color: black;
     font-size: 2rem;
     font-weight: 525;
