@@ -46,5 +46,60 @@ a {
 }
 
 .nav-links a:hover {
+    color: cadetblue;
+}
 
+.home-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+    padding: 12rem 10rem 10rem;
+}
+
+.left-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+    max-width: 40%;
+}
+
+.left-home h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.right-home img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.resume-button {
+    display: flex;
+    background-color: #aaaaaa;
+    color: black;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 2rem;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.socials {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.socials img {
+    width: 100px;
 }
