@@ -203,15 +203,21 @@ a {
     text-align: center;
     font-weight: 500;
     min-width: 220px;
+    max-width: 960px;
 }
 
 .left-work-experience img {
     width: 250px;
     height: 250px;
-    justify-content: center;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 
 .right-work-experience img {
     width: 500px;
     height: 250px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
