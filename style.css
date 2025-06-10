@@ -104,6 +104,12 @@ a {
     width: 100px;
 }
 
+.about-header {
+    font-size: 3rem;
+    color: #cccaca;
+    text-align: center;
+}
+
 .about-elements {
     display: flex;
     justify-content: center;
@@ -123,17 +129,12 @@ a {
     height: 250px;
     object-fit: cover;
     border-radius: 50px;
-    margin-top: 12rem;
+    margin-top: 2rem;
 }
 
 .right-about {
     color: #cccaca;
     max-width: 1560px;
-}
-
-.right-about h1 {
-    font-size: 3rem;
-    margin-bottom: 5rem;
 }
 
 .about-paragraph {
