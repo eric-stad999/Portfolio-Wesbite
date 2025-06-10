@@ -103,3 +103,70 @@ a {
 .socials img {
     width: 100px;
 }
+
+.about-elements {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 5rem 3rem;
+    margin: 0 auto;
+}
+.about-pictures {
+    display: flex;
+    flex-direction:row;
+    gap: 1rem;
+}
+
+.about-pictures img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-top: 12rem;
+}
+
+.right-about {
+    color: #cccaca;
+    max-width: 1560px;
+}
+
+.right-about h1 {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.about-paragraph {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+}
+
+.education-header {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.education {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.education-box {
+    background-color: #aaaaaa;
+    color: black;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    min-width: 220px;
+}
+
+.arrow {
+    font-size: 2rem;
+    color: #aaaaaa;
+}
