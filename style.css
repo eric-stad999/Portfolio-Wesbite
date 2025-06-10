@@ -171,7 +171,15 @@ a {
     color: #aaaaaa;
 }
 
-.work-experience-elements h1 {
+.work-experience-elements {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 5rem 3rem;
+    margin: 0 auto;
+}
+.work-experience-header {
     font-size: 3rem; 
     margin-top: 10rem;
     margin-bottom: 5rem; 
