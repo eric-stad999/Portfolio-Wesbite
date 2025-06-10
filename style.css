@@ -170,3 +170,11 @@ a {
     font-size: 2rem;
     color: #aaaaaa;
 }
+
+.work-experience-elements h1 {
+    font-size: 3rem; 
+    margin-top: 10rem;
+    margin-bottom: 5rem; 
+    color: #cccaca; 
+    text-align: center;
+}
