@@ -273,3 +273,34 @@ a {
     display: block;
     margin: 0 auto;
 }
+
+.coding-experience-header {
+    font-size: 3rem; 
+    margin-top: 10rem;
+    margin-bottom: 3rem; 
+    color: #cccaca; 
+    text-align: center;
+}
+
+.coding-experience-elements {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 5rem 3rem;
+    margin: 0 auto;
+}
+
+.proficient-languages-header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #cccaca; 
+    text-align: center;
+}
+
+.familiar-languages-header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #cccaca; 
+    text-align: center;
+}
