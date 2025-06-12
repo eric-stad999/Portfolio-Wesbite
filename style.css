@@ -304,3 +304,29 @@ a {
     color: #cccaca; 
     text-align: center;
 }
+
+.coding-experience-elements img {
+    width: 150px;
+    height: 150px;
+}
+
+.proficient-languages, .familiar-languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.proficient-languages-box, .familiar-languages-box {
+    background-color: #aaaaaa;
+    color: black;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    min-width: 220px;
+    max-width: 960px;
+}
