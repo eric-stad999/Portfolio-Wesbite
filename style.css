@@ -444,6 +444,32 @@ img.displaySlide {
     margin: 0 auto;
 }
 
+.contact-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #cccaca;
+    text-align: center;
+    gap: 1rem;
+    padding: 15rem 3rem;
+    margin: 0 auto;
+}
+
+.contact-button {
+    display: flex;
+    background-color: #aaaaaa;
+    color: black;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 2rem;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 @keyframes fade {
     from {opacity: .5}
     to {opacity: 1}
