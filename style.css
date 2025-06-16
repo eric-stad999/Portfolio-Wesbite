@@ -357,7 +357,8 @@ a {
     padding: 1rem 2rem;
     font-size: 1rem;
     font-weight: 500;
-    width: 2000px;
+    min-width: 800px;
+    max-width: 800px;
     height: 500px;
 }
 
