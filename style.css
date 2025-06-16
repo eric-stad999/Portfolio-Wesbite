@@ -379,6 +379,7 @@ a {
    height: 100%;
    position: relative;
 }
+
 .slides img {
     max-width: 100%;
     max-height: 100%;
@@ -386,11 +387,13 @@ a {
     display: none;
     margin: auto;
 }
+
 img.displaySlide {
     display: block;
     animation-name: fade;
     animation-duration: 1s;
 }
+
 .slider button {
     position: absolute;
     top: 50%;
@@ -402,13 +405,14 @@ img.displaySlide {
     border: none;
     cursor: pointer;
 }
+
 .prev {
     left: 0;
 }
+
 .next {
     right: 0;
 }
-
 
 .project-info {
     display: flex;
