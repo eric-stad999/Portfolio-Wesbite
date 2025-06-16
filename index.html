@@ -143,7 +143,7 @@
             <h1 class="project-header">Projects</h1>
             <div class="project-elements">
                 <div class="project-pictures">
-                    <h1>Picture(s) of Project that will be added in the near future</h1>
+                    <h1 style="text-align: center;">'Picture(s) of Project that will be added in the near future'</h1>
                 </div>
                 <div class="project-info">
                     <h2 class="project-name-header">Yomiru</h2>
@@ -162,7 +162,14 @@
         <section id="project2">
             <div class="project-elements">
                 <div class="project-pictures">
-                    <h1>Picture(s) of Project that will be added in the near future</h1>
+                    <div class="slider">
+                        <div class="slides">
+                            <img class="slide" src="images/project2_img1.png">
+                            <img class="slide" src="images/project2_img2.png">
+                        </div>
+                        <button class="prev" onclick="prevSlide()">&#10094</button>
+                        <button class="next" onclick="nextSlide()">&#10095</button>
+                    </div>
                 </div>
                 <div class="project-info">
                     <h2 class="project-name-header">Dungeons & Dragons Character Generator</h2>
@@ -213,5 +220,7 @@
             </div>
         </section>
     </section>
+    
+    <script src="index.js"></script>
 </body>
 </html>
