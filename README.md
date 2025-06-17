@@ -1,7 +1,7 @@
 # Portfolio-Wesbite
 Personal portfolio website for the CMPT 276 mini-project!
 # Wireframe
-![alt-text](https://github.com/eric-stad999/Portfolio-Wesbite/blob/main/images/figma.png "Portfolio Website's Wireframe")
+![alt-text](https://github.com/eric-stad999/Portfolio-Wesbite/blob/main/images/Figma.png "Portfolio Website's Wireframe")
 # Includes:
 1. Short biography with a picture
 2. Other hobbies, skills, interests, etc. 
